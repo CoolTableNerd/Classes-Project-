@@ -1,13 +1,13 @@
 # Classes-Project-
 
-#Books-'N-Stuff: 
+# Books-'N-Stuff: <br>
 is a program giving the opportunity to build what organizing a library would look like through software. 
 
 this project consisted of three classes inside on file: Media (parent|super class) / Book,Movie,CD (child|sub class)
 
 Books-'N-Stuff sparked challenge and showcased what a real-world problem would like using Classes, getters/setter, methods, and instances. 
 
-##struggles task that i've learned from: 
+## struggles task that i've learned from: 
 
 line 20-28: (instructions: create a method named toggleCheckOutStatus that changes the value saved to the `_.isCheckedOut` property. if `true` change to `false` and vise-versa)
 
@@ -25,16 +25,7 @@ Reasons you'd want to use `reduce` method:
 - Finding Maximum | Minimum values: `const maxNumber = numbers.reduce((max, current) => current > max ? current : max, numbers[0]);`
 - Counting Instances of Values: `const fruitCount = fruits.reduce((count, fruit) => {count[fruit] = (count[fruit] || 0) + 1;});`
 
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-Classes Project via CodeAcademy 
+**Classes Project via CodeAcademy**
