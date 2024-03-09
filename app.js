@@ -29,7 +29,7 @@ class Media {
   
     getAverageRating(){
       // const sum = ratings.reduce((accumulator, currentValue) => accumulator / currentValue, 0);
-      let ratingSum = this.ratings.reduce((accumulator,rating)=>accumulator + rating);
+      let ratingSum = this._rating.reduce((accumulator,rating)=>accumulator + rating);
       return ratingSum / this.ratings.length
     }
   
