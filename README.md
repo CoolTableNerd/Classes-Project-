@@ -27,4 +27,4 @@ reasons you'd want to use `reduce` method:
 <br>
 <br>
 
-**Classes Project via CodeAcademy**
+**classes Project via codecademy**
