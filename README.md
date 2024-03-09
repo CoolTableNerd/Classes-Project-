@@ -1,6 +1,6 @@
 # Classes-Project-Books-'N-Stuff
 
-### Books-'N-Stuff: is a program giving the opportunity to build what organizing a library would look like through software. 
+Books-'N-Stuff: is a program giving the opportunity to build what organizing a library would look like through software. 
 
 this project consisted of three classes inside on file: Media (parent|super class) / Book,Movie,CD (child|sub class)
 
@@ -8,11 +8,11 @@ Books-'N-Stuff sparked challenge and showcased what a real-world problem would l
 
 ## struggles task that i've learned from: 
 
-<span style="color:orange">line 20-28: (instructions: create a method named toggleCheckOutStatus that changes the value saved to the `_.isCheckedOut` property. if `true` change to `false` and vise-versa)</span>
+**line 20-28: (instructions: create a method named toggleCheckOutStatus that changes the value saved to the `_.isCheckedOut` property. if `true` change to `false` and vise-versa)**
 
 when reading the instructions to change the property from true to false or false to true, i instantly jumped to assuming a condition statement is needed when there is a much simpler way. The if-else condition created 6 lines of code when it requires one. my condition code does complete the task, so it's not wrong, just inefficient in the name of runtime. `this._isCheckedOut = !this._isCheckedOut` also looks much cooler. 
 
-<span style="color:orange">line 30-34: (instructions: return the average value of <b>ratings</b> array the reduce method to find the sum of ratings array. Divide the sum by the length of the ratings array and return the result)</span>
+**line 30-34: (instructions: return the average value of <b>ratings</b> array the reduce method to find the sum of ratings array. Divide the sum by the length of the ratings array and return the result)**
 
 I was just introduced to the reduce method, so i went to the documentation to see how i was to implement the method inside my code. the documentation was a bit confusion leaving me to explore wrong doings trying to use the method. i tried dividing inside the method. i attached the method to the wrong property -- a mess. here's how i would explain using the reduce method: 
 
